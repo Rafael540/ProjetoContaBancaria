@@ -1,5 +1,5 @@
 # Bank Account Project
-
+``` mermaid
 💳 **Bank Account System in Java**
 
 This project simulates a simple bank account system using the principles of **object-oriented programming (OOP)** in Java. The application allows users to create an account with a number, holder name, initial balance, and withdraw limit. Then, the system performs a withdrawal operation, applying validations with custom exception handling.
@@ -15,7 +15,7 @@ This project simulates a simple bank account system using the principles of **ob
 This project is for educational purposes and demonstrates how to apply **encapsulation**, **custom exceptions** (`DomainException`), and good practices using a clean package structure (`entities` and `exceptions`) in Java.
 
 ## 🗂️ Project Structure
-
+```
 bank-account/
 ├── src/
 │ ├── application/
