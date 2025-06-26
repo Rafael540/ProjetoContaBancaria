@@ -1,52 +1,41 @@
-##Bank Account Project
+# Bank Account Project
 
-💳 Bank Account System in Java
+💳 **Bank Account System in Java**
 
-This project simulates a simple bank account system using the principles of object-oriented programming (OOP) in Java. The application allows users to create an account with a number, holder name, initial balance, and withdraw limit. Then, the system performs a withdrawal operation, applying validations with custom exception handling.
+This project simulates a simple bank account system using the principles of **object-oriented programming (OOP)** in Java. The application allows users to create an account with a number, holder name, initial balance, and withdraw limit. Then, the system performs a withdrawal operation, applying validations with custom exception handling.
 
-🧩 Features:
+## 🧩 Features
+- Account creation with basic data
+- Withdrawal operations with business rules:
+  - The amount cannot exceed the withdraw limit
+  - The balance must be sufficient for the transaction
+- Exception handling with clear messages for the user
 
-Account creation with basic data.
+## 🎯 Objective
+This project is for educational purposes and demonstrates how to apply **encapsulation**, **custom exceptions** (`DomainException`), and good practices using a clean package structure (`entities` and `exceptions`) in Java.
 
-Withdrawal operations with business rules:
+## 🗂️ Project Structure
 
-The amount cannot exceed the withdraw limit.
-
-The balance must be sufficient for the transaction.
-
-Exception handling with clear messages for the user.
-
-🎯 Objective:
-This project is for educational purposes and demonstrates how to apply encapsulation, custom exceptions (DomainException), and good practices with a clean package structure (entities and exceptions) in Java.
-
-🗂️ Project Structure:
-
-application/: contains the application entry point (Program.java).
-
-model/entities/: defines the main entity (Account).
-
-model/exceptions/: contains the custom exception (DomainException).
-
-README.md: project description, usage instructions, etc.
-
-UML.png: UML diagram (optional - visual representation).
-
-.gitignore: specifies files and folders to be ignored by Git.
-
-cpp
-Copy
-Edit
 bank-account/
 ├── src/
-│   ├── application/
-│   │   └── Program.java
-│   ├── model/
-│   │   ├── entities/
-│   │   │   └── Account.java
-│   │   └── exceptions/
-│   │       └── DomainException.java
+│ ├── application/
+│ │ └── Program.java
+│ ├── model/
+│ │ ├── entities/
+│ │ │ └── Account.java
+│ │ └── exceptions/
+│ │ └── DomainException.java
 ├── README.md
 ├── UML.png (optional - UML diagram)
 └── .gitignore (optional)
 
+markdown
+Copy
+Edit
 
+- `application/`: contains the application entry point (`Program.java`)
+- `model/entities/`: defines the main entity (`Account`)
+- `model/exceptions/`: contains the custom exception (`DomainException`)
+- `README.md`: project description, usage instructions, etc.
+- `UML.png`: UML diagram (optional - for visual representation)
+- `.gitignore`: defines files and folders to be ignored by Git
