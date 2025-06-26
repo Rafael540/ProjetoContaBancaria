@@ -28,19 +28,3 @@ bank-account/
 ├── README.md
 ├── UML.png (optional - UML diagram)
 └── .gitignore (optional)
-
-markdown
-Copy
-Edit
-
-
-markdown
-Copy
-Edit
-
-- `application/`: contains the application entry point (`Program.java`)
-- `model/entities/`: defines the main entity (`Account`)
-- `model/exceptions/`: contains the custom exception (`DomainException`)
-- `README.md`: project description, usage instructions, etc.
-- `UML.png`: UML diagram (optional - for visual representation)
-- `.gitignore`: defines files and folders to be ignored by Git
