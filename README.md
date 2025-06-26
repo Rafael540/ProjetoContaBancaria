@@ -1,20 +1,51 @@
-# Projeto Conta Bancaria
+Bank Account Project
+💳 Bank Account System in Java
 
-💳 Sistema de Conta Bancária em Java
+This project simulates a simple bank account system using the principles of object-oriented programming (OOP) in Java. The application allows users to create an account with a number, holder name, initial balance, and withdraw limit. Then, the system performs a withdrawal operation, applying validations with custom exception handling.
 
-Este projeto simula um sistema simples de conta bancária utilizando os conceitos de programação orientada a objetos (POO) em Java. A aplicação permite ao usuário criar uma conta com número, titular, saldo inicial e limite de saque. Em seguida, o sistema realiza uma operação de saque, aplicando validações com tratamento de exceções personalizadas.
+🧩 Features:
 
-🧩 Funcionalidades:
-Criação de contas com dados básicos.
+Account creation with basic data.
 
-Realização de saques com regras de negócio:
+Withdrawal operations with business rules:
 
-O valor não pode exceder o limite de saque.
+The amount cannot exceed the withdraw limit.
 
-O saldo deve ser suficiente para a operação.
+The balance must be sufficient for the transaction.
 
-Tratamento de exceções com mensagens claras ao usuário.
+Exception handling with clear messages for the user.
 
-🎯 Objetivo:
-Este projeto tem fins educacionais e demonstra como aplicar encapsulamento, exceções personalizadas (DomainException) e boas práticas com estrutura de pacotes (entities e exceptions) em Java.
+🎯 Objective:
+This project is for educational purposes and demonstrates how to apply encapsulation, custom exceptions (DomainException), and good practices with a clean package structure (entities and exceptions) in Java.
+
+🗂️ Project Structure:
+
+application/: contains the application entry point (Program.java).
+
+model/entities/: defines the main entity (Account).
+
+model/exceptions/: contains the custom exception (DomainException).
+
+README.md: project description, usage instructions, etc.
+
+UML.png: UML diagram (optional - visual representation).
+
+.gitignore: specifies files and folders to be ignored by Git.
+
+cpp
+Copy
+Edit
+bank-account/
+├── src/
+│   ├── application/
+│   │   └── Program.java
+│   ├── model/
+│   │   ├── entities/
+│   │   │   └── Account.java
+│   │   └── exceptions/
+│   │       └── DomainException.java
+├── README.md
+├── UML.png (optional - UML diagram)
+└── .gitignore (optional)
+
 
