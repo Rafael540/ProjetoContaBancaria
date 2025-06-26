@@ -33,6 +33,11 @@ markdown
 Copy
 Edit
 
+
+markdown
+Copy
+Edit
+
 - `application/`: contains the application entry point (`Program.java`)
 - `model/entities/`: defines the main entity (`Account`)
 - `model/exceptions/`: contains the custom exception (`DomainException`)
